@@ -1,0 +1,17 @@
+@function genColorHSL($lightness) {
+  @return hsl(253, 45%, $lightness);
+}
+
+$ai-bg-15: genColorHSL(15%);
+$ai-bg-20: genColorHSL(20%);
+$ai-bg-25: genColorHSL(25%);
+
+$ai-fg-75: genColorHSL(75%);
+$ai-fg-80: genColorHSL(80%);
+$ai-fg-85: genColorHSL(85%);
+
+$ai-border: 1px solid genColorHSL(50%);
+
+$font-mono: 'Fira Mono', monospace;
+$font-code: 'Fira Code', monospace;
+$font-text: 'Fira Sans', sans-serif;

@@ -1,0 +1,27 @@
+@import './variables.scss';
+@import 'normalize.css';
+
+html,
+body,
+div#app {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  min-height: 100vh;
+
+  // Antialiasing
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: $ai-bg-15;
+  color: white;
+  font-family: $font-mono;
+}
+
+code {
+  font-family: $font-code;
+}
+
+p {
+  font-family: $font-text;
+}

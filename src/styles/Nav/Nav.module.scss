@@ -1,0 +1,26 @@
+@import '../variables.scss';
+
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: $ai-bg-20;
+  border-bottom: $ai-border;
+
+  img {
+    transform: scale(80%, 80%);
+    cursor: pointer;
+  }
+}
+
+.link {
+  text-decoration: underline;
+  color: hsl(252, 45%, 75%);
+  margin: 1rem;
+}
+
+.spacer {
+  flex-grow: 1;
+  width: 100%;
+}
