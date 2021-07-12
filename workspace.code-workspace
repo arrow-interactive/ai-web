@@ -10,7 +10,10 @@
 	"extensions": {
 		"recommendations": [
 			"EditorConfig.EditorConfig",
-			"TobiasTao.vscode-md"
+			"TobiasTao.vscode-md",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "rvest.vs-code-prettier-eslint"
 		]
 	}
 }
