@@ -5,7 +5,7 @@ import Logo from './Logo';
 function Nav () {
   return (
     <div class={styles.container}>
-      <Logo />
+      <a href='/'><Logo /></a>
       <div class={styles.spacer} />
       <a href='/projects' class={styles.link}>projects</a>
     </div>
