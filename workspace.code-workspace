@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"explorer.compactFolders": false,
+	},
+	"extensions": {
+		"recommendations": [
+			"EditorConfig.EditorConfig",
+			"TobiasTao.vscode-md"
+		]
+	}
+}
