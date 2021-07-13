@@ -9,9 +9,10 @@
     "normalize.css": "^8.0.1",
     "preact": "^10.5.13",
     "preact-router": "^3.2.1",
-    "sass": "^1.35.2"
+    "react-anime": "^4.0.4"
   },
   "devDependencies": {
+    "sass": "^1.35.2",
     "@preact/preset-vite": "^2.0.0",
     "@typescript-eslint/parser": "^4.28.2",
     "eslint": "7.30.0",
