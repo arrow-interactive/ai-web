@@ -2,7 +2,7 @@
 
 <!--- simple and straight to the point --->
 
-This is the source code for the main Arrow Interactive website. The website is built using Preact.
+This is the source code for the main Arrow Interactive website. It's built with a lightweight React alternative: Preact.
 
 ## Developing
 
