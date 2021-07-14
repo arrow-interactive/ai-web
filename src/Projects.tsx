@@ -5,7 +5,9 @@ function Projects () {
     <>
       <div class={styles.wrapper}>
         <div class={styles.sidebar}>
-          Sidebar
+          I'm just a sidebar, don't mind me.
+          <br />
+          Look at me, being a sidebar.
         </div>
         <div class={styles.container}>
           <p>

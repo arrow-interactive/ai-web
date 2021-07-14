@@ -1,13 +1,14 @@
 import styles from '../styles/Nav/Nav.module.scss';
+import Link from './ALink/Link';
 
 import Logo from './Logo';
 
 function Nav () {
   return (
     <div class={styles.container}>
-      <a href='/'><Logo /></a>
+      <Link href='/'><Logo /></Link>
       <div class={styles.spacer} />
-      <a href='/projects' class={styles.link}>projects</a>
+      <Link href='/projects' class={styles.link}>projects</Link>
     </div>
   );
 }
