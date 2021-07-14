@@ -6,8 +6,8 @@
   @return hsl(281, 98%, $lightness);
 }
 
-@function genDarkColorHSL($lightness: 50%) {
-  @return hsl(253, 45%, $lightness);
+@function genDarkColorHSL($lightness: 100%) {
+  @return hsl(0, 0%, $lightness);
 }
 
 $ai-bg-15: genBaseColorHSL();
