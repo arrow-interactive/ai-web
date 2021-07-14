@@ -1,17 +1,24 @@
-// Generates a color based on the lightness.
-@function generateColorFromLightness($lightness) {
+@function genBaseColorHSL($lightness: 20%) {
+  @return hsl(0, 0%, $lightness);
+}
+
+@function genBrightColorHSL($lightness: 49%) {
+  @return hsl(281, 98%, $lightness);
+}
+
+@function genDarkColorHSL($lightness: 50%) {
   @return hsl(253, 45%, $lightness);
 }
 
-$ai-bg-15: generateColorFromLightness(15%);
-$ai-bg-20: generateColorFromLightness(20%);
-$ai-bg-25: generateColorFromLightness(25%);
+$ai-bg-15: genBaseColorHSL();
+$ai-bg-20: genBaseColorHSL();
+$ai-bg-25: genBaseColorHSL();
 
-$ai-fg-75: generateColorFromLightness(75%);
-$ai-fg-80: generateColorFromLightness(80%);
-$ai-fg-85: generateColorFromLightness(85%);
+$ai-fg-75: genBrightColorHSL();
+$ai-fg-80: genBrightColorHSL();
+$ai-fg-85: genBrightColorHSL();
 
-$ai-border: 1px solid generateColorFromLightness(50%);
+$ai-border: 1px solid genDarkColorHSL();
 
 $font-mono: 'Fira Mono', monospace;
 $font-code: 'Fira Code', monospace;
