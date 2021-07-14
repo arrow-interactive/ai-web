@@ -1,4 +1,4 @@
-@function genBaseColorHSL($lightness: 20%) {
+@function genBaseColorHSL($lightness: 10%) {
   @return hsl(0, 0%, $lightness);
 }
 
@@ -14,9 +14,9 @@ $ai-bg-15: genBaseColorHSL();
 $ai-bg-20: genBaseColorHSL();
 $ai-bg-25: genBaseColorHSL();
 
-$ai-fg-75: genBrightColorHSL();
-$ai-fg-80: genBrightColorHSL();
-$ai-fg-85: genBrightColorHSL();
+$ai-fg-75: genDarkColorHSL();
+$ai-fg-80: genDarkColorHSL();
+$ai-fg-85: genDarkColorHSL();
 
 $ai-border: 1px solid genDarkColorHSL();
 
