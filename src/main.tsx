@@ -9,8 +9,8 @@ import Hider from './components/ALink/Hider';
 
 render(<>
   <Provider>
-    <Hider />
     <Nav />
+    <Hider />
     <Router>
       <Route path='/' component={Index} />
       <Route path='/projects' component={Projects} />
