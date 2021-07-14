@@ -1,4 +1,4 @@
-// Ignoring is required, as I don't know how to fix this.
+// Ignoring is required, as I don't know how to properly type image imports.
 // If you do try to fix this, count the hours you spent
 // doing this, and add it to the counter.
 // Number of hours wasted: 1

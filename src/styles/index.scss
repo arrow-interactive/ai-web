@@ -5,9 +5,14 @@
 html,
 body,
 div#app {
+  // Remove default padding and margin
   padding: 0;
   margin: 0;
+
+  // Default font weight
   font-weight: 400;
+
+  // Set the height for the root element
   min-height: 100vh;
 
   // Antialiasing
@@ -16,6 +21,7 @@ div#app {
 
   background-color: $ai-bg-15;
   color: white;
+  
   font-family: $font-mono;
 }
 

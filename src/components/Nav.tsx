@@ -6,7 +6,10 @@ import Logo from './Logo';
 function Nav () {
   return (
     <div class={styles.container}>
-      <Link href='/'><Logo /></Link>
+      <Link href='/'>
+        <Logo />
+      </Link>
+      {/* Makes the stuff at the right go to the right. */}
       <div class={styles.spacer} />
       <Link href='/projects' class={styles.link}>projects</Link>
     </div>

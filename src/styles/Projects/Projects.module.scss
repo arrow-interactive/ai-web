@@ -15,6 +15,9 @@
 
 .wrapper {
   display: grid;
+  // Each `o` represents 1fr, 1 space.
+  // Total of 10 spaces.
+  // ooo | ooooooo
   grid-template-columns: 3fr 7fr;
   height: 100vh;
 }

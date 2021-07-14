@@ -12,9 +12,8 @@ type LinkProps = JSX.HTMLAttributes<HTMLAnchorElement> & {
 }
 
 /**
- * @description An <a> element hooked to the page animations context.
+ * @description An <a> element hooked to the AnimatedLinks context.
  * @param props <a> props but with an mandatory `href` attribute.
- * @returns An <a> element hooked to the page animations.
  */
 function Link (props: LinkProps) {
   const context = useContext(Context);

@@ -1,7 +1,9 @@
 @import '../variables.scss';
 
 .container {
+  // Required for aligning and the spacer.
   display: flex;
+  // Center things
   text-align: center;
   align-items: center;
   padding: 0.5rem;
@@ -9,17 +11,19 @@
   border-bottom: $ai-border;
 
   img {
+    // Smaller image.
     transform: scale(80%, 80%);
   }
 }
 
 .link {
   text-decoration: underline;
-  color: hsl(252, 45%, 75%);
+  color: $ai-fg-75;
   margin: 1rem;
 }
 
 .spacer {
+  // Flex-grow makes it take up all available space it can.
   flex-grow: 1;
   width: 100%;
 }

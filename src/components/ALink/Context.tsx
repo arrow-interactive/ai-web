@@ -10,4 +10,7 @@ export interface IALinkContext {
   handleChange: (val: IALinkState) => void;
 }
 
+/**
+ * @description Provides the context for A(nimated)Links
+ */
 export const Context = createContext<IALinkContext>({ state: { transitioning: false }, handleChange: () => {} });
