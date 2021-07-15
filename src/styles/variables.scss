@@ -1,8 +1,12 @@
-@function genBaseColorHSL($lightness: 100%) {
+@function genBaseColorHSL($lightness: 10%) {
   @return hsl(0, 0%, $lightness);
 }
 
-@function genDarkColorHSL($lightness: 10%) {
+@function genBrightColorHSL($lightness: 49%) {
+  @return hsl(281, 98%, $lightness);
+}
+
+@function genDarkColorHSL($lightness: 100%) {
   @return hsl(0, 0%, $lightness);
 }
 
@@ -19,7 +23,3 @@ $ai-border: 1px solid genDarkColorHSL();
 $font-mono: 'Fira Mono', monospace;
 $font-code: 'Fira Code', monospace;
 $font-text: 'Fira Sans', sans-serif;
-
-* {
-  color: genDarkColorHSL();
-}
