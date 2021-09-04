@@ -5,10 +5,11 @@
 This is the source code for the main Arrow Interactive website. It's built with a lightweight React alternative: Preact.
 
 ## License
-Arrow Interactive Website  Copyright (C) 2021  Arrow Interactive and Contributors
-This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-This is free software, and you are welcome to redistribute it
-under certain conditions; type `show c' for details.
+Arrow Interactive Website  Copyright (C) 2021
+
+Arrow Interactive and Contributors
+This program comes with ABSOLUTELY NO WARRANTY;
+for details type \`show w'. This is free software, and you are welcome to redistribute it under certain conditions; type \`show c' for details.
 
 ## Developing
 
